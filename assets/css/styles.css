@@ -655,6 +655,12 @@ a.dotted-link:hover {
     position:absolute;
 }
 
+.github-ribbon img {
+  position: fixed; 
+  top: 0; right: 0; 
+  z-index: 2;
+  border: 0;
+}
 
 @media (max-width: 767.98px) {
   .header {
